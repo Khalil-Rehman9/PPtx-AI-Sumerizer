@@ -4,7 +4,7 @@ import pptx
 client = openai()
 
 # Set your OpenAI API key
-openai.api_key = "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"
+
 
 def extract_text_from_pptx(file_path):
     presentation = pptx.Presentation(file_path)
